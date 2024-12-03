@@ -1,6 +1,6 @@
 import pandas as pd 
 
-df = pd.read_csv('input1.csv', sep='   ', header=None)
+df = pd.read_csv('inputDay1.csv', sep='   ', header=None)
 
 col0 = df[0].tolist()
 iters = df[0].tolist()
